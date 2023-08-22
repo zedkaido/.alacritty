@@ -879,6 +879,16 @@ key_bindings:
   #- { key: M,              mods: Command,                    action: Minimize              }
   - { key: Q,               mods: Command,                    action: Quit                  }
   - { key: W,               mods: Command|Shift,              action: Quit                  }
+  - { key: Key0,            mods: Alt, mode: ~Vi|~Search,     chars: "\x1B\x30"             }
+  - { key: Key1,            mods: Alt, mode: ~Vi|~Search,     chars: "\x1B\x31"             }
+  - { key: Key2,            mods: Alt, mode: ~Vi|~Search,     chars: "\x1B\x32"             }
+  - { key: Key3,            mods: Alt, mode: ~Vi|~Search,     chars: "\x1B\x33"             }
+  - { key: Key4,            mods: Alt, mode: ~Vi|~Search,     chars: "\x1B\x34"             }
+  - { key: Key5,            mods: Alt, mode: ~Vi|~Search,     chars: "\x1B\x35"             }
+  - { key: Key6,            mods: Alt, mode: ~Vi|~Search,     chars: "\x1B\x36"             }
+  - { key: Key7,            mods: Alt, mode: ~Vi|~Search,     chars: "\x1B\x37"             }
+  - { key: Key8,            mods: Alt, mode: ~Vi|~Search,     chars: "\x1B\x38"             }
+  - { key: Key9,            mods: Alt, mode: ~Vi|~Search,     chars: "\x1B\x39"             }
   #- { key: N,              mods: Command,                    action: CreateNewWindow       }
   #- { key: F,              mods: Command|Control,            action: ToggleFullscreen      }
   #- { key: F,              mods: Command, mode: ~Search,     action: SearchForward         }
