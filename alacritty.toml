@@ -1,0 +1,665 @@
+[colors.bright]
+black = "#000000"
+blue = "#f1f1f1"
+cyan = "#f1f1f1"
+green = "#5f875f"
+magenta = "#af005f"
+red = "#870000"
+white = "#f1f1f1"
+yellow = "#f1f1f1"
+
+[colors.cursor]
+# cursor = "CellForeground"
+# text = "CellBackground"
+cursor = "#242424"
+text = "#f8f8f8"
+
+[colors.dim]
+black = "#000000"
+blue = "#f1f1f1"
+cyan = "#f1f1f1"
+green = "#5f875f"
+magenta = "#af005f"
+red = "#870000"
+white = "#f1f1f1"
+yellow = "#f1f1f1"
+
+[colors.footer_bar]
+background = "#af005f"
+foreground = "#f7f7f7"
+
+[colors.hints.end]
+background = "#f1f1f1"
+foreground = "#f1f1f1"
+
+[colors.hints.start]
+background = "#f1f1f1"
+foreground = "#f1f1f1"
+
+[colors.line_indicator]
+background = "None"
+foreground = "None"
+
+[colors.normal]
+black = "#000000"
+blue = "#f1f1f1"
+cyan = "#f1f1f1"
+green = "#5f875f"
+magenta = "#af005f"
+red = "#870000"
+white = "#f1f1f1"
+yellow = "#f1f1f1"
+
+[colors.primary]
+background = "#000000"
+bright_foreground = "#000000"
+dim_foreground = "#f7f7f7"
+foreground = "#f7f7f7"
+
+[colors.search.focused_match]
+background = "#af005f"
+foreground = "#f7f7f7"
+
+[colors.search.matches]
+background = "#af005f"
+foreground = "#f7f7f7"
+
+[colors.selection]
+background = "CellBackground"
+text = "CellForeground"
+
+[colors.vi_mode_cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[cursor]
+thickness = 0.1
+unfocused_hollow = true
+vi_mode_style = "None"
+
+[cursor.style]
+blinking = "Off"
+shape = "Block"
+
+[env]
+TERM = "alacritty"
+
+[font]
+builtin_box_drawing = true
+size = 16
+
+[font.bold]
+family = "Berkeley Mono"
+style = "Regular"
+
+[font.bold_italic]
+family = "Berkeley Mono"
+style = "Regular Italic"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "Berkeley Mono"
+style = "Italic"
+
+[font.normal]
+family = "Berkeley Mono"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+# [[keyboard.bindings]]
+# action = "Quit"
+# key = "Q"
+# mods = "Command"
+#
+# [[keyboard.bindings]]
+# action = "Quit"
+# key = "W"
+# mods = "Command|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B0"
+# key = "Key0"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B1"
+# key = "Key1"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B2"
+# key = "Key2"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B3"
+# key = "Key3"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B4"
+# key = "Key4"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B5"
+# key = "Key5"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B6"
+# key = "Key6"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B7"
+# key = "Key7"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B8"
+# key = "Key8"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B9"
+# key = "Key9"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Ba"
+# key = "A"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bb"
+# key = "B"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bc"
+# key = "C"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bd"
+# key = "D"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Be"
+# key = "E"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bf"
+# key = "F"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bg"
+# key = "G"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bh"
+# key = "H"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bi"
+# key = "I"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bj"
+# key = "J"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bk"
+# key = "K"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bl"
+# key = "L"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bm"
+# key = "M"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bn"
+# key = "N"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bo"
+# key = "O"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bp"
+# key = "P"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bq"
+# key = "Q"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Br"
+# key = "R"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bs"
+# key = "S"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bt"
+# key = "T"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bu"
+# key = "U"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bv"
+# key = "V"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bw"
+# key = "W"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bx"
+# key = "X"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001By"
+# key = "Y"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001Bz"
+# key = "Z"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BA"
+# key = "A"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BB"
+# key = "B"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BC"
+# key = "C"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BD"
+# key = "D"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BE"
+# key = "E"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BF"
+# key = "F"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BG"
+# key = "G"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BH"
+# key = "H"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BI"
+# key = "I"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BJ"
+# key = "J"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BK"
+# key = "K"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BL"
+# key = "L"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BM"
+# key = "M"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BN"
+# key = "N"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BO"
+# key = "O"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BP"
+# key = "P"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BQ"
+# key = "Q"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BR"
+# key = "R"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BS"
+# key = "S"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BT"
+# key = "T"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BU"
+# key = "U"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BV"
+# key = "V"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BW"
+# key = "W"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BX"
+# key = "X"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BY"
+# key = "Y"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BZ"
+# key = "Z"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B1"
+# key = "Key1"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B2"
+# key = "Key2"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B3"
+# key = "Key3"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B4"
+# key = "Key4"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B5"
+# key = "Key5"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B6"
+# key = "Key6"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B7"
+# key = "Key7"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B8"
+# key = "Key8"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B9"
+# key = "Key9"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B0"
+# key = "Key0"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u0000"
+# key = "Space"
+# mode = "~Vi|~Search"
+# mods = "Control"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B`"
+# key = "Grave"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B~"
+# key = "Grave"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B."
+# key = "Period"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B*"
+# key = "Key8"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B#"
+# key = "Key3"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B>"
+# key = "Period"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B<"
+# key = "Comma"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B_"
+# key = "Minus"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B%"
+# key = "Key5"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B^"
+# key = "Key6"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B\\"
+# key = "Backslash"
+# mode = "~Vi|~Search"
+# mods = "Alt"
+#
+# [[keyboard.bindings]]
+# chars = "\u001B|"
+# key = "Backslash"
+# mode = "~Vi|~Search"
+# mods = "Alt|Shift"
+
+[mouse]
+hide_when_typing = true
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[window]
+decorations = "none"
+decorations_theme_variant = "None"
+dynamic_padding = false
+dynamic_title = true
+option_as_alt = "Both"
+startup_mode = "Windowed"
+title = "Alacritty"
+
+[window.dimensions]
+columns = 0
+lines = 0
+
+[window.padding]
+x = 0 
+y = 0 
+
+[window.position]
+x = 0
+y = 0
